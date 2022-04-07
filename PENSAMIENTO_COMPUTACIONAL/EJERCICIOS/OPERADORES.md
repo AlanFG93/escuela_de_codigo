@@ -1,15 +1,15 @@
 ## OPERADORES ARITMETICOS
 Reto. Describe el proceso en que se computa las siguientes fórmulas.
 
-X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
+X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)       X = (20) - (-7)  = 27
 
-X = (5 + 2 * 4) – (25 +. 5)2
+X = (5 + 2 * 4) – (25 + 5)2               x = (13) - (60) = -47
+ 
+X = (100/5^2 + 1) + 11 * 3                 X = 5 + 33   = 38
 
-X = (100/5^2 + 1) + 11 * 3
+X = ((8-6)^2*3)^3.                         X = 12^3  = 1728
 
-X = ((8-6)^2*3)^3.
-
-x = ((8+5) *4) * (10-6)/4) 
+x = ((8+5) *4) * ((10-6)/4)                 X = (52) * (1) = 52
 
 
 ## OPERADORES RELACIONALES
@@ -20,18 +20,27 @@ notifica que ha sido acreedor al bono de puntualidad. Si el empleado tiene
 baja al final del mes. Describe tal situación usando operadores
 relacionales.
 
+Bono: "Retardos" = 0
+Suspensión: "Retardos" = 2 
+Baja:  "Retardos" >= 3 
+
 Reto. Analiza el problema y selecciona la opción que consideres que lo
 resuelve:
 “C” es mayor que “D”. “E” es menor que “F”. “G” es menor que “E” y “D” es
-mayor que “F”. ¿Cuál es el menor de todos?
+mayor que “F”. ¿Cuál es el menor de todos? 
 
-3^2 – (10/(8-4))+9 > 100 
+"C" > "D"
+"E" < "F"
+"G" < "E"
+"D" > "F"
+
+3^2 – (10/(8-4))+9 > 100 =   Falso
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha.
-1) (45<120 OR 12<120) =
-2) (6! =6) && (12>22)) =
-3) ¬ (128<145 && 12>9) =
-4) “Daniela”< >”DANIELA” =
-5) 10*20< >210 =
+1) (45<120 OR 12<120) = Verdadero
+2) (6! =6) && (12>22)) = Falso 
+3) ¬(128<145 && 12>9) = Falso
+4) “Daniela”< >”DANIELA” = Verdero
+5) 10*20< >210 = Verdero
 
