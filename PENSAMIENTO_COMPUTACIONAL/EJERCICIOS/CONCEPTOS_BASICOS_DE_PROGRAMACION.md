@@ -24,7 +24,7 @@ El Visual Basic es un lenguaje de programación que proviene del BASIC. La prime
 ![image](https://user-images.githubusercontent.com/103210431/162495319-e93e48ec-1672-4cc5-80dc-fcd64919ff87.png)
 
 
-## LENGUAJE 3  - Phyton
+## LENGUAJE 3  - Phyton (Lenguaje de alto nivel)
 
 Python es un lenguaje de programación independiente de plataforma y orientado a objetos, preparado para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o incluso, páginas web. Es un lenguaje interpretado, lo que significa que no se necesita compilar el código fuente para poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e inconvenientes como una menor velocidad.
 
