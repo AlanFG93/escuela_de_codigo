@@ -1,7 +1,7 @@
-## RETO 
-Vamos a identificar los siguientes tipos de datos
+# RETO 
+## Vamos a identificar los siguientes tipos de datos
 
-NUMEROS ENTEROS : INT
+### NUMEROS ENTEROS : **INT**
 
 556
 
@@ -13,7 +13,7 @@ NUMEROS ENTEROS : INT
 
 8946
  
-NUMEROS DECIMALES: FLOAT
+### NUMEROS DECIMALES: **FLOAT**
 
 2.5
 
@@ -25,7 +25,7 @@ NUMEROS DECIMALES: FLOAT
 
 4.686
 
-CARACTER : CHAR
+### CARACTER : **CHAR**
 
 "5"
 
@@ -35,7 +35,7 @@ CARACTER : CHAR
 
 "19945"
 
-CADENA DE CARACTERES : STRING
+### CADENA DE CARACTERES : **STRING**
 
 "¿Hola? ¿Cómo estás?"
 
