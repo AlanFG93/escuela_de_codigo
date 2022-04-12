@@ -7,7 +7,7 @@
 
 2.- Declarar (Num1, 9, Resultado)
 
-3.- Mostrar (Ingresa un número)
+3.- Mostrar ("Ingresa un número")
 
 4.- Asignar (Num1)
 
@@ -32,7 +32,7 @@
 
 2.- Declarar (Nu_Metros, 1.09361, Resultado)
 
-3.- Mostrar (Ingresa el número de metros)
+3.- Mostrar ("Ingresa el número de metros")
 
 4.- Asignar (Nu_Metros)
 
@@ -46,13 +46,33 @@
 
 # DIAGRAMA DE FLUJO
 
-![image](https://user-images.githubusercontent.com/103210431/163031561-20bf9a54-1a2d-4464-a8c0-d1102523849a.png)
+![image](https://user-images.githubusercontent.com/103210431/163031988-a5cd4d2f-14cf-424f-9a1c-af3659e7c0f3.png)
 
 
 4. Realizar el algoritmo y diagrama de flujo de un programa que calcule el área de un triángulo.
 
+# ALGORITMO
+
+1.- Inicio
+
+2.- Declarar (Base, Altura, 2)
+
+3.- Mostrar ("Ingresa la medida de la Base")
+
+4.- Mostrar ("Ingresa la medida de la Altura")
+
+5.- Asignar (Base, Altura)
+
+6.- Resultado = (Base * Altura) / 2 
+
+7.- Mostrar (Resultado)
+
+8.- Fin
 
 
+# DIAGRAMA DE FLUJO
+
+![image](https://user-images.githubusercontent.com/103210431/163033547-37dff11d-dbfd-4638-a22d-6054ff37e2b8.png)
 
 
 
