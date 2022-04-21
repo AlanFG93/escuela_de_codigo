@@ -108,6 +108,51 @@
 10.- Fin
 
 
-* De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
+## De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
+
+### Algoritmo
+
+1.- Inicio
+
+2.- Declarar (Num_1) int
+
+3.- Mostar ("Ingresa un número del 1 al 12")
+
+4.- Asignar (Num_1)
+
+5.- En Caso De (Num_1) 
+    
+   1 mostrar ("Enero")
+   
+   2 mostrar ("Febrero")
+   
+   3 mostrar ("Marzo")
+   
+   4 mostrar ("Abril")
+   
+   5 mostrar ("Mayo")
+   
+   6 mostrar ("Junio")
+   
+   7 mostrar ("Julio")
+   
+   8 mostrar ("Agosto")
+   
+   9 mostrar ("Septiembre")
+   
+   10 mostrar ("Octubre")
+   
+   11 mostrar ("Noviembre")
+   
+   12 mostrar ("Diciembre")
+   
+   SiNo mostrar ("Número incorrecto")
+   
+   FinCaso
+   
+   6.- Fin
+
+
+
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 * Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
