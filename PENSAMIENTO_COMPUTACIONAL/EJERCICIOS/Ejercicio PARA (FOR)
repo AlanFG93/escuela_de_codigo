@@ -1,0 +1,30 @@
+Algoritmo Validacion
+
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+  
+		Escribir "Ingresa un número"
+    
+		Leer Num
+    
+		Si Num<0 Entonces
+    
+			Res = Res + Num
+      
+		SiNo
+    
+			Res2 = Res2 + Num
+      
+			Cont = Cont + 1
+      
+			Res3 = Res2 / Cont
+      
+		Fin Si
+    
+	Fin Para
+  
+	Escribir "La suma de los números negativos es: ", Res
+  
+	Escribir "El promedio de los números positivos es: ", Res3
+  
+FinAlgoritmo
+
