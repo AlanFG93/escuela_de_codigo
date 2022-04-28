@@ -1,0 +1,71 @@
+Algoritmo Num_Alea
+	i<-5
+	Num_Sec<-azar(100)+1
+	Escribir "Adivina el número secreto entre el 1 y 100"
+	Escribir "Ingresa el número"
+	Leer Num_Seleccion
+	
+	Mientras i>1 y Num_Seleccion <> Num_Sec  Hacer
+			Si Num_Seleccion>101 o Num_Seleccion<0 Entonces
+			Escribir "Numero fuera de rango"
+			Escribir "Ingresa un número entre el 0 y 100"
+			Leer Num_Seleccion
+		SiNo
+			i = i - 1
+			Si Num_Sec>Num_Seleccion Entonces
+			Escribir "El número secreto es mayor al ingresado"
+			Escribir "Te quedan ", i , " intentos, ingresa otro número"
+			Leer Num_Seleccion
+		SiNo
+			Si Num_Sec<Num_Seleccion Entonces
+				Escribir "El número secreto es menor al ingresado"
+				Escribir "Te quedan ", i , " intentos, ingresa otro número"
+				Leer Num_Seleccion
+			SiNo
+				Si Num_Sec=Num_Seleccion Entonces
+					Escribir "¡Felicidades! Encontraste el número secreto en el intento ", i
+				SiNo
+					Escribir "Ingresa un número entre el 0 y 100"
+					Leer Num_Seleccion
+				Fin Si
+			Fin Si
+		Fin Si
+		Fin Si
+	FinMientras
+	Escribir "Fin del juego; el número secreto era: ", Num_Sec
+FinAlgoritmo
+
+
+
+Prof
+
+Algoritmo Resolu_Ejer
+	Num_Sec<-azar(100)+1
+	Num<-0
+	i<-5
+	Escribir "Adivina el número"
+	Leer Num
+	Si Num<1 o Num>100 Entonces
+		Escribir "Numero fuera de rango"
+		Escribir "Ingresa un número entre el 1 y 100"
+		Leer Num
+	SiNo
+		Mientras Num<>Num_Sec y i>1 Hacer
+		i = i - 1
+		Si Num>Num_Sec Entonces
+			Escribir "El número ingresado es mayor"
+		SiNo
+			Escribir "El número ingresado es menor"
+		Fin Si
+		Escribir "Te quedan ", i, " intentos"
+		Escribir "Ingresa otro número del 1 al 100"
+		Leer Num
+	Fin Mientras
+	Si Num=Num_Sec Entonces
+		Escribir "Felicidades le atinaste en ", i , " intentos"
+	SiNo
+		Escribir "Se terminaron los intentos, el número secreto era: ", Num_Sec
+	Fin Si
+Fin Si
+FinAlgoritmo
+
